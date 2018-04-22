@@ -1,7 +1,3 @@
----
----
-
-@import "{{ site.theme }}";
 * {
   box-sizing: border-box; }
 
@@ -54,7 +50,7 @@ a {
         margin-left: 0; } }
 
 .page-header {
-  color: #ddd; /*changed*/ 
+  color: #fff;
   text-align: center;
   background-color: #159957;
   background-image: linear-gradient(120deg, #155799, #159957); }
