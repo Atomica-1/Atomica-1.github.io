@@ -73,10 +73,39 @@ body, html {
 
 
 
-/* Turn off parallax scrolling for tablets and phones 
+/* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
 }
-*/
+
+@media only screen and (max-width: 600px) {
+    #psoff {
+        opacity: 0;
+    }
+    
+    #aioff {
+        opacity: 0;
+    }
+    
+    #dwoff {
+        opacity: 0;
+    }
+    
+    #animoff {
+        opacity: 0;
+    }
+    
+    #htmloff {
+        opacity: 0;
+    }
+    
+    #cssoff {
+        opacity: 0;
+    }
+    
+    #jsoff {
+        opacity: 0;
+    }
+}
