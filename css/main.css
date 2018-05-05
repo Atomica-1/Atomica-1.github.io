@@ -80,6 +80,8 @@ body, html {
     }
 }
 */
+
+
 @media only screen and (max-width: 600px) {
     #psoff {
         opacity: 0;
