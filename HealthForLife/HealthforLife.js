@@ -6473,13 +6473,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,1190.4,673);
 
 	this.timeline.addTween(cjs.Tween.get(this.button_1).wait(68).to({_off:false},0).wait(25).to({_off:true},1).wait(47));
 
-	// info
+	// Layer_6
 	this.instance = new lib.info_gr("synched",0);
 	this.instance.parent = this;
-	this.instance.setTransform(642.5,-409.8);
+	this.instance.setTransform(637.3,-394.1);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(47).to({_off:false},0).wait(1).to({y:-369.2},0).wait(1).to({y:-328.5},0).wait(1).to({y:-287.8},0).wait(1).to({y:-247.1},0).wait(1).to({y:-206.4},0).wait(1).to({y:-165.7},0).wait(1).to({y:-125},0).wait(1).to({y:-84.3},0).wait(1).to({y:-43.6},0).wait(1).to({y:-2.9},0).wait(1).to({y:37.8},0).wait(1).to({y:78.5},0).wait(1).to({y:119.2},0).wait(1).to({y:159.9},0).wait(1).to({y:200.6},0).wait(1).to({y:241.3},0).wait(1).to({y:282},0).wait(1).to({y:322.7},0).wait(1).to({y:363.4},0).wait(1).to({y:363.7},0).wait(1).to({startPosition:0},0).wait(25).to({startPosition:0},0).wait(1).to({startPosition:0},0).wait(1).to({y:326},0).wait(1).to({y:288.4},0).wait(1).to({y:250.7},0).wait(1).to({y:213.1},0).wait(1).to({y:175.5},0).wait(1).to({y:137.8},0).wait(1).to({y:100.2},0).wait(1).to({y:62.6},0).wait(1).to({y:24.9},0).wait(1).to({y:-12.7},0).wait(1).to({y:-50.3},0).wait(1).to({y:-88},0).wait(1).to({y:-125.6},0).wait(1).to({y:-163.2},0).wait(1).to({y:-200.9},0).wait(1).to({y:-238.5},0).wait(1).to({y:-276.1},0).wait(1).to({y:-313.8},0).wait(1).to({y:-351.4},0).wait(1).to({y:-389},0).to({_off:true},1).wait(26));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(47).to({_off:false},0).to({y:366.4},20).wait(1).to({startPosition:0},0).wait(26).to({startPosition:0},0).to({x:626,y:-406.2},20).to({_off:true},1).wait(26));
 
 	// button
 	this.mybutton = new lib.button_btn();
